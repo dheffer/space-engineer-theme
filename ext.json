@@ -1,0 +1,16 @@
+{
+    "identifier": "org.yourdomain.my-plugin",
+    "name": "Space Engineer",
+    "content_type": "SN|Theme",
+    "area": "themes",
+    "version": "1.0.0",
+    "description": "Space Engineer theme based off of Nuphy Air96 V2 Space Engineer keycaps",
+    "url": "http://192.168.2.40:8001/src/main.css",
+    "download_url": "",
+    "dock_icon": {
+        "type": "circle",
+        "background_color": "#086DD6",
+        "foreground_color": "#ffffff",
+        "border_color": "#086DD6"
+    }
+}

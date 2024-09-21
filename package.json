@@ -1,0 +1,12 @@
+{
+    "name": "Space Engineer",
+    "version": "1.0",
+    "main": "src/main.css",
+    "sn": {
+        "main": "src/main.css"
+    }, 
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/PASSK3YS/dark-mint-theme.git"
+    }
+}
