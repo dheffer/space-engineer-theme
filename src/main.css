@@ -1,78 +1,168 @@
 :root {
+  /*o------------------------------------------o*/
+    --background-beige: #e7e4df;
+    --foreground-beige: #d5dbd6;
+    
+    --background-orange: #c77658;
+    --highlights-orange: #dc9b78;
+    
+    --background-blue: #576292;
+    --foreground-blue: #414d7f;
+    
+    --background-purple: #c0b3c0;
+  /*o------------------------------------------o*/
+  /*
     --sn-stylekit-base-font-size: 14px;
-  
+    
     --sn-stylekit-font-size-p: 1rem;
     --sn-stylekit-font-size-editor: 1.21rem;
-  
+    
     --sn-stylekit-font-size-h6: 0.8rem;
     --sn-stylekit-font-size-h5: 0.9rem;
     --sn-stylekit-font-size-h4: 1rem;
     --sn-stylekit-font-size-h3: 1.1rem;
     --sn-stylekit-font-size-h2: 1.2rem;
     --sn-stylekit-font-size-h1: 1.3rem;
-  
-    --sn-stylekit-neutral-color: #989898;
-    --sn-stylekit-neutral-contrast-color: white;
-  
-    --sn-stylekit-info-color: #086dd6;
-    --sn-stylekit-info-contrast-color: white;
-  
+  */
+    
+    --sn-stylekit-neutral-color: var(--background-purple);
+    --sn-stylekit-neutral-contrast-color: var(--background-blue);
+    
+    --sn-stylekit-info-color: var(--background-blue);
+    --sn-stylekit-info-contrast-color: var(--background-beige);
+  /*
     --sn-stylekit-success-color: #2b9612;
     --sn-stylekit-success-contrast-color: white;
-  
-    --sn-stylekit-warning-color: #f6a200;
+  */
+    --sn-stylekit-warning-color: var(--background-orange);
     --sn-stylekit-warning-contrast-color: white;
-  
+  /*
     --sn-stylekit-danger-color: #f80324;
     --sn-stylekit-danger-contrast-color: white;
+  */
+    
+    --sn-stylekit-shadow-color: #c8c8c8; /* Unknown */
+    --sn-stylekit-background-color: var(--background-beige); /* Backgrounds */
+    --sn-stylekit-border-color: var(--background-blue); /* Element borders */
+    --sn-stylekit-foreground-color: var(--foreground-blue); /* Text elements */
+    
+    --sn-stylekit-contrast-background-color: var(--background-purple); /* Highlighted note */
+    --sn-stylekit-contrast-foreground-color: var(--foreground-blue);
+    --sn-stylekit-contrast-border-color: var(--background-blue); /* Unknown */
+    
+    --sn-stylekit-secondary-background-color: var(--background-blue); /* Sidebar background */
+    --sn-stylekit-secondary-foreground-color: var(--foreground-beige); /* Sidebar text */
+    --sn-stylekit-secondary-border-color: var(--background-blue); /* Unknown */
   
-    --sn-stylekit-shadow-color: #c8c8c8;
-    --sn-stylekit-background-color: white;
-    --sn-stylekit-border-color: #e3e3e3;
-    --sn-stylekit-foreground-color: black;
-  
-    --sn-stylekit-contrast-background-color: #f6f6f6;
-    --sn-stylekit-contrast-foreground-color: #2e2e2e;
-    --sn-stylekit-contrast-border-color: #e3e3e3;
-  
-    --sn-stylekit-secondary-background-color: #f6f6f6;
-    --sn-stylekit-secondary-foreground-color: #2e2e2e;
-    --sn-stylekit-secondary-border-color: #e3e3e3;
-  
-    --sn-stylekit-secondary-contrast-background-color: #e3e3e3;
-    --sn-stylekit-secondary-contrast-foreground-color: #2e2e2e;
-    --sn-styleki--secondary-contrast-border-color: #a2a2a2;
-  
-    --sn-stylekit-editor-background-color: var(--sn-stylekit-background-color);
+  /*
+    --sn-stylekit-secondary-contrast-background-color: #000000;
+    --sn-stylekit-secondary-contrast-foreground-color: #000000; 
+    --sn-styleki--secondary-contrast-border-color: #a2a2a2; 
+    
+    --sn-stylekit-editor-background-color: #000000;
     --sn-stylekit-editor-foreground-color: var(--sn-stylekit-foreground-color);
+  */
+    
+    --sn-stylekit-paragraph-text-color: var(--foreground-blue); /* Unknown */
   
-    --sn-stylekit-paragraph-text-color: #454545;
+    --sn-stylekit-input-placeholder-color: #000000; /* Unknown */
+    --sn-stylekit-input-border-color: var(--background-orange); /* Unknown */
   
-    --sn-stylekit-input-placeholder-color: rgb(168, 168, 168);
-    --sn-stylekit-input-border-color: #e3e3e3;
-  
-    --sn-stylekit-scrollbar-thumb-color: #dfdfdf;
-    --sn-stylekit-scrollbar-track-border-color: #e7e7e7;
-  
-    --sn-stylekit-general-border-radius: 2px;
+    --sn-stylekit-scrollbar-thumb-color: var(--background-orange); /* Scrollbars */
+    --sn-stylekit-scrollbar-track-border-color: #000000; /* Unknown */
+    
+  /*
+    --sn-stylekit-general-border-radius: 14px;
   
     --sn-stylekit-monospace-font: 'Ubuntu Mono', courier, monospace;
     --sn-stylekit-sans-serif-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
       'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  */
   
-    --sn-stylekit-grey-1: #72767e;
-    --sn-stylekit-grey-2: #bbbec4;
-    --sn-stylekit-grey-3: #dfe1e4;
-    --sn-stylekit-grey-4: #eeeff1;
-    --sn-stylekit-grey-4-opacity-variant: #bbbec43d;
-    --sn-stylekit-grey-5: #f4f5f7;
-    --sn-stylekit-grey-6: #e5e5e5;
+    --sn-stylekit-grey-1: #000000; /* Unknown */
+    --sn-stylekit-grey-2: #000000; /* Unknown */
+    --sn-stylekit-grey-3: #000000; /* Unknown */ 
+    --sn-stylekit-grey-4: #000000; /* Unknown */
+    --sn-stylekit-grey-4-opacity-variant: #000000; /* Unknown */
+    --sn-stylekit-grey-5: #000000; /* Unknown */
+    --sn-stylekit-grey-6: #000000; /* Unknown */
   
-    --sn-stylekit-accessory-tint-color-1: #086dd6;
-    --sn-stylekit-accessory-tint-color-2: #ea6595;
-    --sn-stylekit-accessory-tint-color-3: #ebad00;
-    --sn-stylekit-accessory-tint-color-4: #7049cf;
-    --sn-stylekit-accessory-tint-color-5: #1aa772;
-    --sn-stylekit-accessory-tint-color-6: #f28c52;
-  }
+  /* --sn-stylekit-passive-color-0: #000000; */	
   
+  --sn-stylekit-passive-color-1: var(--foreground-beige);  /* Tag icon colours */
+  
+  /*
+    --sn-stylekit-passive-color-2: #7fc194;
+    --sn-stylekit-passive-color-3: #000000;	
+    --sn-stylekit-passive-color-4: var(--background-2);
+  */
+  
+    --sn-stylekit-passive-color-4-opacity-variant: var(--background-orange); /* Tag background colour, progress background of task list preview */
+    --sn-stylekit-passive-color-5: var(--background-orange);  /* Background of file upload status */
+    
+  /*
+    --sn-stylekit-passive-color-6: #000000;
+    --sn-stylekit-passive-color-super-light: #000000;
+  */
+  
+    /* ICONS FOR FILE TYPES */
+    --sn-stylekit-accessory-tint-color-1: var(--background-blue);
+    --sn-stylekit-accessory-tint-color-2: var(--background-blue);
+    --sn-stylekit-accessory-tint-color-3: var(--background-blue);
+    --sn-stylekit-accessory-tint-color-4: var(--background-blue);
+    --sn-stylekit-accessory-tint-color-5: var(--background-blue);
+    --sn-stylekit-accessory-tint-color-6: var(--background-blue);
+  /*
+    --modal-background-color: var(--sn-stylekit-background-color);
+  
+    --editor-header-bar-background-color: var(--sn-stylekit-background-color);
+    --editor-background-color: var(--sn-stylekit-editor-background-color);
+    --editor-foreground-color: var(--sn-stylekit-editor-foreground-color);
+  */
+  
+    --editor-title-bar-border-bottom-color: var(--background-purple);
+    --editor-title-input-color: var(--foreground-blue); /* Editor title */
+  
+  /*
+    --editor-pane-background-color: var(--sn-stylekit-background-color);
+    --editor-pane-editor-background-color: var(--sn-stylekit-background-color);
+    --editor-pane-editor-foreground-color: #ffffff;
+    --editor-pane-component-stack-item-background-color: #000000;
+  */
+    
+    --text-selection-color: var(--foreground-blue); /* Selected text */
+    --text-selection-background-color: var(--background-purple); /* Selected text background */
+  /*
+    --note-preview-progress-color: #000000;
+    --note-preview-progress-background-color: var(--sn-stylekit-passive-color-4-opacity-variant);
+  
+    --note-preview-selected-progress-color: #000000;
+    --note-preview-selected-progress-background-color: #000000;
+  */
+  
+    --items-column-background-color: var(--sn-stylekit-background-color); /* Notes header section */
+    --items-column-items-background-color: var(--sn-stylekit-background-color); /* Notes rows */
+  /*
+    --items-column-border-left-color: var(--sn-stylekit-border-color); 
+    --items-column-border-right-color: var(--sn-stylekit-border-color);
+  
+    --items-column-search-background-color: var(--sn-stylekit-contrast-background-color);
+    --item-cell-selected-background-color: var(--sn-stylekit-contrast-background-color);  Hovered or selected item 
+    --item-cell-selected-border-left-color: var(--sn-stylekit-info-color);
+  */
+    /* SIDEBAR */
+    --navigation-column-background-color: var(--sn-stylekit-secondary-background-color); /* Sidebar colour */
+    --navigation-section-title-color: var(--sn-stylekit-secondary-foreground-color); /* Sidebar titles */
+    --navigation-item-text-color: var(--background-beige); /* Sidebar text */
+    --navigation-item-count-color: var(--foreground-blue); /* Sidebar count values */
+    --navigation-item-selected-background-color: var(--background-purple);
+    
+    --preferences-navigation-icon-color: #000000;
+    --preferences-navigation-selected-background-color: var(--highlights-orange);
+  
+    --dropdown-menu-radio-button-inactive-color: var(--sn-stylekit-passive-color-1);
+    
+    --panel-resizer-background-color: var(--sn-stylekit-secondary-contrast-background-color);
+    --link-element-color: var(--sn-stylekit-info-color);
+
+}

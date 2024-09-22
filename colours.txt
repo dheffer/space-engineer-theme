@@ -1,0 +1,12 @@
+hex
+
+--background-beige: #e7e4df;
+--foreground-beige: #d5dbd6;
+
+--background-orange: #c77658;
+--highlights-orange: #dc9b78;
+
+--background-blue: #576292;
+--foreground-blue: #7071a9;
+
+--background-purple: #928095;

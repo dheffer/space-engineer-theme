@@ -1,16 +1,18 @@
 {
-    "identifier": "org.yourdomain.my-plugin",
+    "identifier": "dev.dheffer.space-engineer-theme",
     "name": "Space Engineer",
     "content_type": "SN|Theme",
     "area": "themes",
-    "version": "1.0.0",
-    "description": "Space Engineer theme based off of Nuphy Air96 V2 Space Engineer keycaps",
-    "url": "http://192.168.2.40:8001/src/main.css",
-    "download_url": "",
+    "version": "v1.0",
+    "description": "Space Engineer theme based on the Nuphy Air96 V2 Space Engineer keycaps",
+    "url": "https://cdn.jsdelivr.net/gh/dheffer/space-engineer-theme@v1.0/src/main.css",
+    "download_url": "https://github.com/dheffer/space-engineer-theme/archive/refs/tags/v1.0.zip",
+    "marketing_url": "https://github.com/dheffer/space-engineer-theme",
+    "latest_url": "https://listed.to/p/l6pOf0eRea",
     "dock_icon": {
         "type": "circle",
-        "background_color": "#086DD6",
-        "foreground_color": "#ffffff",
-        "border_color": "#086DD6"
+        "background_color": "#928095",
+        "foreground_color": "#eae9e3",
+        "border_color": "#737ea6"
     }
 }
