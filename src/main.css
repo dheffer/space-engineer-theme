@@ -27,10 +27,10 @@
   */
     
     --sn-stylekit-neutral-color: var(--foreground-purple);
-    --sn-stylekit-neutral-contrast-color: var(--background-be);
+    --sn-stylekit-neutral-contrast-color: var(--background-blue);
     
-    --sn-stylekit-info-color: var(--background-purple); /* Inline text and some icons */
-    --sn-stylekit-info-contrast-color: var(--foreground-blue);
+    --sn-stylekit-info-color: var(--background-blue); /* Inline text and some icons */
+    --sn-stylekit-info-contrast-color: var(--foreground-beige);
   /*
     --sn-stylekit-success-color: #2b9612;
     --sn-stylekit-success-contrast-color: white;
@@ -51,7 +51,7 @@
     --sn-stylekit-contrast-foreground-color: var(--foreground-blue);
     --sn-stylekit-contrast-border-color: var(--background-blue); /* Top border */
     
-    --sn-stylekit-secondary-background-color: var(--background-blue); /* Inline code */
+    --sn-stylekit-secondary-background-color: var(--background-purple); /* Inline code */
     --sn-stylekit-secondary-foreground-color: var(--foreground-beige); /* Sidebar text */
     --sn-stylekit-secondary-border-color: var(--background-blue); /* Unknown */
   
