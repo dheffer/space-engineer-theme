@@ -1,3 +1,6 @@
+https://imagecolorpicker.com
+https://nuphy.com/cdn/shop/files/240227-02_1800x_305a95c1-f6fc-4811-8177-0847b8b75869_1800x1800.jpg?v=1712736243
+
 hex
 
 --background-beige: #e7e4df;
